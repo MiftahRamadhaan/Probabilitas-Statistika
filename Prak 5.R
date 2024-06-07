@@ -1,0 +1,13 @@
+rama = read.delim("clipboard")
+View(rama)
+str(rama)
+mean(rama$Volume)
+t.test(rama$Volume, mu=10)
+rama = read.delim("clipboard")
+View(rama)
+str(rama)
+volume <- c(15000, 15500, 17500, 14500, 14000, 16000, 14500, 15500, 16500, 14000)
+mean_volume <- mean(volume)
+mean_volume
+t_test_result <- t.test (volume, mu = 10)
+print(t_test_result)
