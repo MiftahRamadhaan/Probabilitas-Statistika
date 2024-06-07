@@ -1,0 +1,6 @@
+rama = read.delim("clipboard")
+View (rama)
+t.test(rama$Volume, conf.level = 0.95)
+rama = read.delim("clipboard")
+View (rama)
+t.test(rama$Volume, conf.level = 0.5)
